@@ -1,0 +1,13 @@
+STAR Method Behavioral Interview Questions
+By Patrick Guinn
+
+1. Tell me about a time where something did not go as planned and how you handled the situation?
+2. Tell me about a time when you had a disagreement with someone and how you handled the situation?
+3. Tell me about a time when you had to adapt to a new challenge.
+4. Have you ever had to develop a new skill on the fly? Tell me about your approach to the learning process.
+5. Give an example of a time when you failed to hit your goals. How did you respond?
+6. Give an example of a time when you performed well under pressure.
+7. Tell me about a time when you had to help a teammate who was struggling.
+8. Tell me about a time you felt completely overwhelmed by a technical task. What did you do?
+9. Give an example of a time you had to complete a task with very little guidance or direction.
+10. Give me an example of a time when you took initiative.
