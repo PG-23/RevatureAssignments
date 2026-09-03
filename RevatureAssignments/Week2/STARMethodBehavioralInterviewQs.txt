@@ -2,12 +2,52 @@ STAR Method Behavioral Interview Questions
 By Patrick Guinn
 
 1. Tell me about a time where something did not go as planned and how you handled the situation?
+	S: During my senior capstone project, our team was often faced with unforeseen challenges, especially when the frontend and backend teams entered the integration phase.
+	T: About midway through the semester our team begin testing backend routes and it was the first time the front end time was using these routes. This led us to discover many unforeseen implementations that were necessary for our entire team to be able to produce the same environment on our personal machines and be able to test our project properly.
+	A: Some of these issues were handled through online team meetings and collaborative debug sessions. Eventually however we thought it was the best use of our time to dedicate an in-person meeting on-campus that way we could ultimately ensure we were all on the same page and relatively issue-free going forward.
+	R: In the end the in-person meeting proved to be very successful as we all were able to communicate and relay issues directly and the team morale increased which was very beneficial for the late stages of the project.
 2. Tell me about a time when you had a disagreement with someone and how you handled the situation?
+	S: During my senior capstone project, our team would sometimes differ in regards to the system design as development went forward.
+	T: Initially our project design and features were defined but without very specific details. This led some members to have different ideas of how features should be implemented. Also, some feature proved to be more complicated to implement as the project move forward, so some decision was needed to be made in terms of feasibility.
+	A: As the member that conceived the idea for the project and had the initial system design in mind I often gave advice on how my vision was in terms of different features of the project. When team members differed from the initial vision of the project, I often listened to their opinion and concerns and as a team we decided what was the best way forward.
+	R: In the end, this communication of concerns, visions, and alterations proved to be very beneficial while developing our project and was essential in ensuring that we could deliver a quality MVP at the end of the semester.
 3. Tell me about a time when you had to adapt to a new challenge.
+	S:
+	T:
+	A:
+	R:
 4. Have you ever had to develop a new skill on the fly? Tell me about your approach to the learning process.
+	S:
+	T:
+	A:
+	R:
 5. Give an example of a time when you failed to hit your goals. How did you respond?
+	S:
+	T:
+	A:
+	R:
 6. Give an example of a time when you performed well under pressure.
+	S:
+	T:
+	A:
+	R:
 7. Tell me about a time when you had to help a teammate who was struggling.
+	S:
+	T:
+	A:
+	R:
 8. Tell me about a time you felt completely overwhelmed by a technical task. What did you do?
+	S:
+	T:
+	A:
+	R:
 9. Give an example of a time you had to complete a task with very little guidance or direction.
+	S:
+	T:
+	A:
+	R:
 10. Give me an example of a time when you took initiative.
+	S:
+	T:
+	A:
+	R:
