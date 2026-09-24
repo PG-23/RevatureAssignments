@@ -1,0 +1,195 @@
+/* =========================================================
+   1. VARIABLES
+   Custom properties let you define a value once and reuse it.
+   Change a color here and it updates everywhere.
+   ========================================================= */
+:root {
+  --color-bg: #fafafa;
+  --color-text: #222;
+  --color-accent: #2563eb;   /* blue */
+  --color-card: #ffffff;
+  --max-width: 900px;
+}
+
+/* =========================================================
+   2. RESET / BASE STYLES
+   ========================================================= */
+
+/* Makes width/height include padding and border (much easier to reason about) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Smooth scrolling when clicking the nav links */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================================================
+   3. HEADER & NAVIGATION  (uses Flexbox)
+   ========================================================= */
+.site-header {
+  display: flex;                    /* puts children in a row */
+  justify-content: space-between;   /* logo left, nav right */
+  align-items: center;              /* vertically centered */
+  padding: 1rem 2rem;
+  background-color: var(--color-card);
+  border-bottom: 1px solid #e5e5e5;
+  position: sticky;                 /* stays at top while scrolling */
+  top: 0;
+}
+
+.logo {
+  font-size: 1.25rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;          /* space between the links */
+  list-style: none;     /* removes the bullet points */
+}
+
+.nav-links a {
+  color: var(--color-text);
+  font-weight: 500;
+}
+
+/* =========================================================
+   4. HERO
+   ========================================================= */
+.hero {
+  text-align: center;
+  padding: 6rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* =========================================================
+   5. REUSABLE PIECES
+   ========================================================= */
+
+/* Every .section is centered and limited in width */
+.section {
+  max-width: var(--max-width);
+  margin: 0 auto;        /* "auto" left/right centers a block */
+  padding: 4rem 1rem;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.section h3 {
+  margin: 1.5rem 0 0.5rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--color-accent);
+  color: white;
+  border-radius: 6px;
+  transition: opacity 0.2s;   /* animates the hover change */
+}
+
+.button:hover {
+  opacity: 0.85;
+  text-decoration: none;
+}
+
+/* Skills shown as little "pills" */
+.skills {
+  display: flex;
+  flex-wrap: wrap;     /* wraps onto a new line if there's no room */
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.skills li {
+  background-color: #e0e7ff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+}
+
+/* =========================================================
+   6. PROJECTS  (uses CSS Grid)
+   ========================================================= */
+.project-grid {
+  display: grid;
+  /* As many columns as fit, each at least 220px wide.
+     This makes the grid responsive with no media query! */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: var(--color-card);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);   /* lifts the card slightly */
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 1rem;
+}
+
+/* =========================================================
+   7. FOOTER
+   ========================================================= */
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid #e5e5e5;
+  font-size: 0.9rem;
+}
+
+/* =========================================================
+   8. RESPONSIVE (small screens)
+   A media query applies styles only when the condition is true.
+   ========================================================= */
+@media (max-width: 600px) {
+  .site-header {
+    flex-direction: column;   /* stack logo above nav */
+    gap: 0.5rem;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+}
